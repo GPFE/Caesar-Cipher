@@ -58,4 +58,9 @@ string = "Github"
 shift_factor = 20
 #################>
 
-puts caesar_cipher(string, shift_factor)
+line = ""
+string.length.times { line.concat("#") }
+
+puts line
+puts caesar_cipher(string, shift_factor) 
+puts line
